@@ -1,5 +1,5 @@
 import { ChannelType, SlashCommandBuilder } from "discord.js";
-import { createCommand } from "../command.ts";
+import { createCommand } from "~/utils/command.ts";
 
 export default createCommand({
   data: new SlashCommandBuilder()

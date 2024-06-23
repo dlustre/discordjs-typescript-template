@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Basic template for creating a Discord bot with TypeScript and discord.js",
   "type": "module",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "dotenv -e .env tsx ."
   },

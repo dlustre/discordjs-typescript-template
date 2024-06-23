@@ -5,15 +5,15 @@ import { CommandConfig } from "./command.ts";
 
 /** Deploys all commands to all permitted guilds. Returns the collection of deployed commands. */
 export async function deployGlobalCommands() {
-  const commandFiles = (await readdir("./commands")).filter((file) =>
+  const commandFiles = (await readdir("src/commands")).filter((file) =>
     file.endsWith(".ts")
   );
 
-  console.log(`${commandFiles.toString()}`);
+  console.log(`Commands to deploy: ${commandFiles.toString()}`);
 
   const commands: CommandConfig[] = await Promise.all(
     commandFiles.map(
-      async (file) => (await import(`./commands/${file}`)).default
+      async (file) => (await import(`~/commands/${file}`)).default
     )
   );
 

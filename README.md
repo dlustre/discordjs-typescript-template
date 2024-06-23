@@ -10,7 +10,7 @@ If you haven't already, read the [Discord.js Guide](https://discordjs.guide/). I
 
 ### 1. Create a new Discord application with at least the following scopes and permissions. You can do this in the installation tab of the [Discord Developer Portal](https://discord.com/developers/applications).
 
-![Default scopes and permissions](./install-settings.png)
+![Default scopes and permissions](docs/install-settings.png)
 
 ### 2. Clone the repository or use it as a template.
 

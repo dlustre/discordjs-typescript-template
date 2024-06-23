@@ -1,7 +1,7 @@
 import { Client, Events, GatewayIntentBits } from "discord.js";
-import { env } from "./env.ts";
+import { env } from "~/utils/env.ts";
 
-import { deployGlobalCommands } from "./deployGlobalCommands.ts";
+import { deployGlobalCommands } from "~/utils/deployGlobalCommands.ts";
 
 const client = Object.assign(
   new Client({
