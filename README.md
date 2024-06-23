@@ -1,6 +1,6 @@
 # Discord.js TypeScript Template
 
-A simple and up-to-date TypeScript + Discord.js template so you can start making your Discord bot with ease. It does all the preliminary setup for you, so you basically only need to create the bot and hit start to get it running! This template is intended for those who just want to make a basic bot or needs the flexibility to customize it to their needs.
+A simple TypeScript + Discord.js template so you can start making your Discord bot with ease. It does all the preliminary setup for you, so you basically only need to create the bot and hit start to get it running! This template is intended for those who just want to make a basic bot or need the flexibility to customize it to their needs.
 
 *(Looking for something more advanced, batteries-included? Check out [Discord-Bot-TypeScript-Template](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template).)*
 
@@ -12,7 +12,7 @@ If you haven't already, read the [Discord.js Guide](https://discordjs.guide/). I
 
 ![Default scopes and permissions](./install-settings.png)
 
-2. Clone the repository or use as template.
+2. Clone the repository or use it as a template.
 
 3. Create a `.env` file in the root of the project and add your bot token and client ID. Your bot token and client ID can be found in the [Discord Developer Portal](https://discord.com/developers/applications) and navigating to the "Bot" tab and the "OAuth2" tab.
 
