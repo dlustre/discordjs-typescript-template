@@ -4,58 +4,62 @@ A simple TypeScript + Discord.js template so you can start making your Discord b
 
 *(Looking for something more advanced, batteries-included? Check out [Discord-Bot-TypeScript-Template](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template).)*
 
-If you haven't already, read the [Discord.js Guide](https://discordjs.guide/). It does a good job of demonstrating the capabilities of the library.
+If you haven't already, read the [Discord.js Guide](https://discordjs.guide/). It does a good job of demonstrating what you can do with Discord.js.
 
 ## Getting Started
 
-1. Create a new Discord application with at least the following scopes and permissions. You can do this in the installation tab of the [Discord Developer Portal](https://discord.com/developers/applications).
+### 1. Create a new Discord application with at least the following scopes and permissions. You can do this in the installation tab of the [Discord Developer Portal](https://discord.com/developers/applications).
 
 ![Default scopes and permissions](./install-settings.png)
 
-2. Clone the repository or use it as a template.
+### 2. Clone the repository or use it as a template.
 
-3. Create a `.env` file in the root of the project and add your bot token and client ID. Your bot token and client ID can be found in the [Discord Developer Portal](https://discord.com/developers/applications) and navigating to the "Bot" tab and the "OAuth2" tab.
+```sh
+git clone https://github.com/dlustre/discordjs-typescript-template.git
+```
+
+### 3. Create a `.env` file in the root of the project and add your bot token and client ID. Your bot token and client ID can be found in the [Discord Developer Portal](https://discord.com/developers/applications) and navigating to the "Bot" tab and the "OAuth2" tab.
 
     ```env
     TOKEN=<your bot token>
     CLIENT_ID=<your client ID>
     ```
 
-4. Install dependencies
+### 4. Install dependencies
 
-### npm
+#### npm
 
 ```sh
 npm install
 ```
 
-### pnpm
+#### pnpm
 
 ```sh
 pnpm install
 ```
 
-### yarn
+#### yarn
 
 ```sh
 yarn install
 ```
 
-4. Run the bot
+### 4. Run the bot
 
-### npm
+#### npm
 
 ```sh
 npm start
 ```
 
-### pnpm
+#### pnpm
 
 ```sh
 pnpm start
 ```
 
-### yarn
+#### yarn
 
 ```sh
 yarn start
