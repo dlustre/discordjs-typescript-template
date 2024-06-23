@@ -20,10 +20,10 @@ git clone https://github.com/dlustre/discordjs-typescript-template.git
 
 ### 3. Create a `.env` file in the root of the project and add your bot token and client ID. Your bot token and client ID can be found in the [Discord Developer Portal](https://discord.com/developers/applications) and navigating to the "Bot" tab and the "OAuth2" tab.
 
-    ```env
-    TOKEN=<your bot token>
-    CLIENT_ID=<your client ID>
-    ```
+```env
+TOKEN=<your bot token>
+CLIENT_ID=<your client ID>
+```
 
 ### 4. Install dependencies
 
