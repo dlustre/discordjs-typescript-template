@@ -8,7 +8,7 @@ If you haven't already, read the [Discord.js Guide](https://discordjs.guide/). I
 
 ## Getting Started
 
-### 1. Create a new Discord application with at least the following scopes and permissions. You can do this in the installation tab of the [Discord Developer Portal](https://discord.com/developers/applications).
+### 1. Create a new Discord bot with at least the following scopes and permissions. You can do this in the installation tab of the [Discord Developer Portal](https://discord.com/developers/applications). Afterwards, you can install the bot in your server.
 
 ![Default scopes and permissions](docs/install-settings.png)
 
@@ -45,7 +45,7 @@ pnpm install
 yarn install
 ```
 
-### 4. Run the bot
+### 5. Run the bot and try /ping in your server!
 
 #### npm
 
